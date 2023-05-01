@@ -1,0 +1,25 @@
+.navbar {
+    width: '100%';
+    background-color: #152A46;
+    padding: '20px';
+    height: 100px;
+}
+
+.navbar > .container {
+    top: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    color: white;
+}
+
+.button-text {
+    background-color: #FF6161;
+    width: 148px;
+    height: 48;
+    border-radius: 50px;
+    padding: 10px, 24px, 10px, 24px;
+}

@@ -1,0 +1,33 @@
+.cardTemplate {
+    border: 1px solid black;
+}
+
+.cardTemplate:hover {
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253);
+}
+
+.cardBody {
+    padding: 10rem 0 !important;
+}
+
+.cardText {
+    font-size: .9rem;
+    padding: 0.4rem 1.9rem;
+}
+
+.containerFluid {
+    padding-top: 6rem;
+}
+
+.overFlow {
+    overflow: hidden;
+}
+
+.cardImgTop {
+    transform: scale(1);
+    transition: transform 0.5s ease;
+}
+
+/* .cardImgTop {
+    transform: scale(1.8);
+}  */
