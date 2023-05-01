@@ -1,5 +1,7 @@
 .cardTemplate {
     border: 1px solid black;
+    max-height: 400px;
+    max-width: 300px;
 }
 
 .cardTemplate:hover {
@@ -26,8 +28,9 @@
 .cardImgTop {
     transform: scale(1);
     transition: transform 0.5s ease;
+    width: 100%;
 }
 
-/* .cardImgTop {
+.cardImgTop:hover {
     transform: scale(1.8);
-}  */
+} 

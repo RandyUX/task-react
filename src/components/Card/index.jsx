@@ -10,8 +10,8 @@ const CardContainer = ({ className, imgsrc, title }, ref) => {
   return (
     <div className={className} ref={ref}>
       <div className={`card text-center ${css.cardTemplate}`}>
-        <div className={`${css.overFlow}`}>
-          <img src={imgsrc} alt="imgtest" className="card-img-top" />
+        <div className={css.overFlow}>
+          <img src={imgsrc} alt="imgtest" className={css.cardImgTop} />
         </div>
         <div className="card-body text-dark">
           <h4 className="card-title">{title}</h4>
